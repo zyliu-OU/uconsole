@@ -1,4 +1,5 @@
 # uConsole Ubuntu
+<img width="755" height="693" alt="image" src="https://github.com/user-attachments/assets/00bedc45-4453-4d7a-8e52-11c1eecbc59e" />
 
 Community Ubuntu images for ClockworkPi uConsole with Raspberry Pi Compute Modules.
 
