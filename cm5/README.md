@@ -2,7 +2,7 @@
 
 [Back to editions](../README.md)
 
-**Image upload pending.** The local Public V1 candidate has been packaged and verified. Fresh SD-card CM5 hardware testing remains pending. This page will link the separate `cm5-public-v1` release after upload.
+**[Download CM5 Public V1](https://github.com/zyliu-OU/uconsole/releases/tag/cm5-public-v1)** — published as an experimental pre-release. Packaging and uploaded asset hashes were verified. Fresh SD-card CM5 hardware testing remains pending.
 
 ## Included support
 
@@ -23,7 +23,7 @@ Earlier hardware observations apply to the working source image. This rebuilt ca
 
 ## Download and reconstruct
 
-The planned release title is **uConsole Ubuntu 26.04 CM5 — Public V1**, with tag `cm5-public-v1`. Download both numbered parts and both compressed-image checksum files from that CM5 release when available:
+The release title is **uConsole Ubuntu 26.04 CM5 — Public V1**, with tag `cm5-public-v1`. Download both numbered parts and both compressed-image checksum files from the [CM5 release](https://github.com/zyliu-OU/uconsole/releases/tag/cm5-public-v1):
 
 ```bash
 compressed=uconsole-ubuntu-26.04.1-CM5-public-V1.img.xz
@@ -69,7 +69,7 @@ CM5 EEPROM is separate from the SD-card image. Automatic EEPROM updating is disa
 
 ## Source and licence materials
 
-The release preparation includes an attribution/source guide, component notices, selected kernel configuration and pinned Rex source archive. The donor changelog identifies commit [03e554ccf8512b1d11bcd0b48621d16d81717541](https://github.com/ak-rex/rpi-linux/commit/03e554ccf8512b1d11bcd0b48621d16d81717541); no bit-for-bit kernel rebuild is claimed.
+The release includes an attribution/source guide, component notices, selected kernel configuration and pinned Rex source archive. The donor changelog identifies commit [03e554ccf8512b1d11bcd0b48621d16d81717541](https://github.com/ak-rex/rpi-linux/commit/03e554ccf8512b1d11bcd0b48621d16d81717541); no bit-for-bit kernel rebuild is claimed.
 
 The source archive is `uconsole-CM5-public-V1-kernel-source.tar.gz`, SHA256:
 
@@ -79,4 +79,4 @@ d979c847f25354074e2e69d1826e20901e2dcafaa6a27d5a34e73b169fe977ea
 
 Keep source/configuration and applicable redistribution notices alongside the image. Upstream software and firmware retain their own licences. This repository does not yet assign a reuse licence to new project scripts.
 
-Full documentation and the hardware checklist are bundled inside the image at `/usr/share/doc/uconsole-public-v1/`; release supplements are being prepared for upload.
+Full documentation and the hardware checklist are bundled inside the image at `/usr/share/doc/uconsole-public-v1/`. The [support bundle](https://github.com/zyliu-OU/uconsole/releases/download/cm5-public-v1/uconsole-CM5-public-V1-support.tar.gz) contains notices, kernel configuration, deployed support-script source and public validation reports. The [kernel source archive](https://github.com/zyliu-OU/uconsole/releases/download/cm5-public-v1/uconsole-CM5-public-V1-kernel-source.tar.gz) is a separate asset. `SHA256SUMS` on the release page covers all other uploaded assets.
